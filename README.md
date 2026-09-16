@@ -42,6 +42,18 @@ pip install -r requirements.txt
 
 ## Uso
 
+### Opción 1: doble clic (Windows)
+
+Haz doble clic en **`Buscador de Archivos.bat`** — abre la app directamente,
+sin necesidad de terminal. Si algo falla al iniciar, la ventana se queda
+abierta mostrando el error.
+
+Para que tenga el ícono del clip en vez del ícono genérico de `.bat`, crea un
+acceso directo apuntando a ese archivo y asígnale `assets/icono.ico` como
+ícono (clic derecho sobre el acceso directo → Propiedades → Cambiar icono).
+
+### Opción 2: desde la terminal
+
 ```
 python main.py
 ```
